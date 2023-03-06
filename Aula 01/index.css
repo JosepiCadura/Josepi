@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+}
+
+.box {
+    width: 100px ; /* width largura, height altura */
+    height: 100px ;
+    color: aliceblue;
+    border-style: solid;
+    border-width: 10px;
+}
+.row {
+    display: flex; /* habilita o recurso flex*/
+    flex-direction: row; /* transforma o elemento em uma linha */
+    gap: 30px; /* espaçamento */
+}
